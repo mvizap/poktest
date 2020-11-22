@@ -60,19 +60,19 @@ Ante cualquier duda lea la guía oficial de laravel [Official Documentation](htt
 
 Clonar el repositorio
 
-```git clone https://github.com/mvizap/poktest.git poktest```
+    git clone https://github.com/mvizap/poktest.git poktest
 
 Ingresar a la carpeta generada
 
-```cd poktest```
+    cd poktest
 
 Instalar las dependencias
 
-```composer install```
+    composer install
 
 Copiar el archivo de ejemplo y configure en el archivo .env según sus credenciales
 
-```cp .env.example .env```
+    cp .env.example .env
 
 Generar una llave del proyecto
 
@@ -82,10 +82,10 @@ Generar una llave del proyecto
 (**Para este proyecto se entregó un archivo SQL, el cual debería tener ejecutado para correr este proyecto**)
 
  
-Corra el servidor
+Ejecute el servidor
 
 
-```php artisan serve```
+    php artisan serve
 
 Podrá ver el proyecto en  http://localhost:8000 o http://127.0.0.1:8000/
 
